@@ -5,7 +5,6 @@ import { View, SafeAreaView, FlatList, Text } from 'react-native';
 
 import { COLORS, FlightData } from '../constants';
 
-import { HomeHeader, FocusedStatusBar, FlightCard } from '../components';
 
 const Home = () => {
   return (
