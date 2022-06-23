@@ -8,7 +8,7 @@ import { COLORS, SIZES, FONTS, SHADOWS } from '../constants';
 
 
 
-export const CircleButton = ({ imgUrl, handLePress, ...props }) => {
+export const CircleButton = ({ imgUrl, ...props }) => {
   return (
     <TouchableOpacity
         style={{
@@ -22,7 +22,6 @@ export const CircleButton = ({ imgUrl, handLePress, ...props }) => {
             ...SHADOWS.light,
             ...props,
         }}
-        onPress={handLePress}
     >
 
     //하트버튼
