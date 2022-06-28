@@ -8,6 +8,8 @@ const FlightData = [
     price: 23.12,
   },
   
+  //to be updated soon
+  
   
   
 ]
