@@ -35,6 +35,7 @@ export const COLORS = {
   
       elevation: 3,
     },
+      
     medium: {
       shadowColor: COLORS.gray,
       shadowOffset: {
@@ -46,6 +47,7 @@ export const COLORS = {
   
       elevation: 7,
     },
+      
     dark: {
       shadowColor: COLORS.gray,
       shadowOffset: {
@@ -57,4 +59,5 @@ export const COLORS = {
   
       elevation: 14,
     },
+      
   };
