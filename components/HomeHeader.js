@@ -7,6 +7,7 @@ import { COLORS, FONTS, SIZES, assets } from '../constants';
 
 const HomeHeader = ({ onSearch }) => {
   return (
+    //home header design
     <View style={{
       backgroundColor: COLORS.primary,
       padding: SIZES.font
@@ -16,6 +17,7 @@ const HomeHeader = ({ onSearch }) => {
         justifyContent: 'space-between',
         alignItems: 'center'
       }}>
+        //setting airtaxi logo in left side
         <Image 
           source={assets.logo}
           resizeMode="contain"
@@ -23,6 +25,7 @@ const HomeHeader = ({ onSearch }) => {
           />
 
         <View style={{ width: 45, height: 45 }}>
+          //setting login info of current user in right side (dynamic function)
           <Image
             source={assets.login}  //Later, this needs to be changed to dynamic login info image
             resizeMode="contain"
@@ -53,6 +56,7 @@ const HomeHeader = ({ onSearch }) => {
           backgroundColor: COLORS.gray,
           alignItems: 'center'
         }}>
+          //setting search bar
           <Image 
             source={assets.search}
             resizeMode="contain"
