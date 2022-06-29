@@ -15,7 +15,7 @@ const Home = () => {
         <View style={{ flex: 1}}>
             <View style={{ zIndex: 0 }}>
             <FlatList 
-                data={FlightData} 
+                data={FlightData}  //Later, this data will be changed to receive real-time data through API
                 renderItem={({ item }) => <FlightCard data={item} />}
                 showsVerticalScrollIndicator={false}
                 keyExtractor={(item) => item.id}
