@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
         //status bar 위에 검은띠
-        <FocusedStatusBar background={COLORS.primary} /> 
+        <StatusBar background={COLORS.primary} /> 
 
         <View style={{ flex: 1}}>
             <View style={{ zIndex: 0 }}>
