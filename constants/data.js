@@ -3,12 +3,20 @@
 
 const FlightData = [
   {
-    name: "Wisk Cora",
+    id: "Wisk-01"
+    name: "Cora",
     maxppl: 4,
     price: 23.12,
   },
   
-  //to be updated soon
+  {
+    id: "Wisk-02"
+    name: "Cora",
+    maxppl: 3,
+    price: 17.12,
+  },
+  
+  //to be updated to check the system can read data from this soon
   
   
   
