@@ -8,7 +8,7 @@ import { COLORS, FONTS } from '../constants/theme.js';
 import { SIZES } from '../constants/theme.js';
 import { FONT } from '../constants/theme.js';
 
-const HomeHeader = () => {
+const HomeHeader = ({ onSearch }) => {
   return (
     <View style={{
       backgroundColor: COLORS.lightpink,
@@ -68,7 +68,7 @@ const HomeHeader = () => {
           <TextInput 
             placeholder="Search Flight"
             style={{ flex: 1 }}
-            onChangeText={() => {}}
+            onChangeText={onSearch}}
           />
         </View>
       </View>
