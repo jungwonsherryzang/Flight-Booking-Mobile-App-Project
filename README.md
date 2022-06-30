@@ -21,10 +21,8 @@ Attaching the mobile app implementation video with Expo.go App in IOS.
 
 https://user-images.githubusercontent.com/91277856/176603069-f4d9ad82-ac9e-4198-b293-a134b21c4559.mov
 
+![IMG_8878](https://user-images.githubusercontent.com/91277856/176775320-fb523075-26f2-4d26-bb06-a7a9a62ebf18.jpg)
 
-![IMG_8851 2](https://user-images.githubusercontent.com/91277856/176604423-328ab9f4-9e46-4209-9e0b-c6ef66d334a5.jpg)
+![IMG_8879](https://user-images.githubusercontent.com/91277856/176775327-b41e97b1-ac87-4fb6-b1fe-61079d71a003.jpg)
 
-
-![IMG_8853 2](https://user-images.githubusercontent.com/91277856/176604428-c582de3c-547a-4695-ad14-0efb0a65d1c1.jpg)
-
-
+![IMG_8880](https://user-images.githubusercontent.com/91277856/176775340-b17affdb-a547-4ccc-ae05-2982adc5f926.jpg)
