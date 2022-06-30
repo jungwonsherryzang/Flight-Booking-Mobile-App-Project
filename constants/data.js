@@ -1,6 +1,5 @@
 //In real mobile app development, it should be dynamic with database design
 //but I will just set the data in advance and read from this file to just show as a demo
-
 import assets from "./assets";
 
 const FlightData = [
@@ -8,6 +7,7 @@ const FlightData = [
     id: "Flight01",
     name: "Cora-01",
     price: 23.45,
+    time: 14,
     maxppl: 4,
     image: assets.flight1,
     description: " "
@@ -17,6 +17,7 @@ const FlightData = [
     id: "Flight02",
     name: "Cora-02",
     price: 7.25,
+    time: 21,
     maxppl: 3,
     description: " ",
     image: assets.flight2,
@@ -27,6 +28,7 @@ const FlightData = [
     name: "Cora-03",
     price: 11.56,
     maxppl: 3,
+    time: 8,
     description: " ",
     image: assets.flight3,
   },
@@ -36,6 +38,7 @@ const FlightData = [
     name: "Cora-04",
     price: 54.25,
     maxppl: 4,
+    time: 9,
     description: " ",
     image: assets.flight4,
   },
@@ -45,6 +48,7 @@ const FlightData = [
     name: "Cora-05",
     price: 10.25,
     maxppl: 3,
+    time: 10,
     description: " ",
     image: assets.flight5,
   },
@@ -53,8 +57,9 @@ const FlightData = [
     id: "Flight06",
     name: "Cora-06",
     price: 20.25,
-    maxppl: 2
-    description:" ",
+    maxppl: 2,
+    time: 5,
+    description: " ",
     image: assets.flight6,
   },
   
@@ -63,6 +68,7 @@ const FlightData = [
     name: "Cora-07",
     price: 18.25,
     maxppl: 4,
+    time: 12,
     description: " ",
     image: assets.flight7,
   },
