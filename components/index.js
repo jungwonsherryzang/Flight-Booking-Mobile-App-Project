@@ -1,10 +1,11 @@
-import HomeHeader from "./HomeHeader";
-import FlightCard from './FlightCard';
+import HomeHeader from './HomeHeader.js';
+import FlightCard from './FlightCard.js';
+import TopStatusBar from './TopStatusBar.js';
 
 import { CircleButton, RectButton } from './Button';
 
 export {
-    HomeHeader, FlightCard,
+    HomeHeader, FlightCard, TopStatusBar,
     CircleButton, RectButton,
     
 }
