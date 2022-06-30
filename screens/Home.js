@@ -1,9 +1,14 @@
 import React from 'react';
 import { View, SafeAreaView, FlatList, Text } from 'react-native'; 
-//flatlist renders item
-//safeareaview makes sure everything fits on the screen
+//flatlist is efficient than scrollview
 
-import { COLORS, FlightData } from '../constants';
+import { COLORS } from '../constants/theme.js';
+import { FlightData } from '../constants/data.js';
+
+//importing components
+import { HomeHeader } from '../components/index.js';
+import { TopStatusBar } from '../components/index.js';
+import { FlightCard } from '../components/index.js';
 
 
 const Home = () => {
